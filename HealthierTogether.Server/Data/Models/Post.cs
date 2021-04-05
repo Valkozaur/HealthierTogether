@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿namespace HealthierTogether.Server.Data.Models
 {
     using System.Collections.Generic;
@@ -5,6 +6,14 @@
 
     using static Validation.Post;
 
+=======
+﻿using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace HealthierTogether.Server.Data.Models
+{
+>>>>>>> remotes/origin/master
     public class Post
     {
         public Post()
@@ -15,7 +24,11 @@
         public int Id { get; set; }
 
         [Required]
+<<<<<<< HEAD
         [MaxLength(MaxPostNameLength)]
+=======
+        [MaxLength(100)]
+>>>>>>> remotes/origin/master
         public string Name { get; set; }
 
         [Required]
