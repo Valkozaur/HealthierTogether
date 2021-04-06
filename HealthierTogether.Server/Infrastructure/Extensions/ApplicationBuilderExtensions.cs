@@ -15,5 +15,10 @@
 
             dbContext.Database.Migrate();
         }
+
+        public static IApplicationBuilder ApplyEnvironmentSettings(this IApplicationBuilder app)
+            => app
+                .UseDeveloperExceptionPage()
+                .UseMigrationsEndPoint();
     }
 }
