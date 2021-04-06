@@ -3,7 +3,7 @@
 namespace HealthierTogether.Server.Models.Post
 {
     using AutoMapper.Configuration.Annotations;
-    using HealthierTogether.Server.Mapper;
+    using HealthierTogether.Server.Infrastructure.Mapper;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 

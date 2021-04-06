@@ -1,4 +1,4 @@
-﻿namespace HealthierTogether.Server.Mapper
+﻿namespace HealthierTogether.Server.Infrastructure.Mapper
 {
     using AutoMapper;
 
