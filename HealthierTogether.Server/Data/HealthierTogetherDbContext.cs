@@ -11,13 +11,16 @@
         {
         }
 
-        public DbSet<Post> Post { get; set; }
+        public DbSet<Post> Posts { get; set; }
 
         public DbSet<Tag> Tag { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Post>()
+                .HasIndex(e => e.Name);
+
+            modelBuilder.Entity<Tag>()
                 .HasIndex(e => e.Name);
 
             base.OnModelCreating(modelBuilder);

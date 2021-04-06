@@ -3,7 +3,7 @@ namespace HealthierTogether.Server
     using System.Text;
     using HealthierTogether.Server.Data;
     using HealthierTogether.Server.Data.Models;
-    using HealthierTogether.Server.Infrastructure;
+    using HealthierTogether.Server.Infrastructure.Extensions;
     using Microsoft.AspNetCore.Authentication.JwtBearer;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;

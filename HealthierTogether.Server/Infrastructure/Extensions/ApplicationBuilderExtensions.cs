@@ -1,4 +1,4 @@
-﻿namespace HealthierTogether.Server.Infrastructure
+﻿namespace HealthierTogether.Server.Infrastructure.Extensions
 {
     using HealthierTogether.Server.Data;
     using Microsoft.AspNetCore.Builder;

@@ -124,3 +124,4 @@ C:\Fileshare\OneDrive - Accedia\Repos\HealthierTogether\HealthierTogether.Server
 C:\Fileshare\OneDrive - Accedia\Repos\HealthierTogether\HealthierTogether.Server\obj\Debug\net5.0\HealthierTogether.Server.genruntimeconfig.cache
 =======
 >>>>>>> remotes/origin/master
+C:\Fileshare\OneDrive - Accedia\Repos\HealthierTogether\HealthierTogether.Server\bin\Debug\net5.0\AutoMapper.dll

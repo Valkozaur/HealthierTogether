@@ -12,22 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
     <PackageReference Include="AutoMapper" Version="10.1.1" />
-=======
->>>>>>> remotes/origin/master
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.4" />
   </ItemGroup>
-
-<<<<<<< HEAD
-=======
-  <ItemGroup>
-    <Folder Include="Models\Feed\" />
-  </ItemGroup>
-
->>>>>>> remotes/origin/master
 </Project>

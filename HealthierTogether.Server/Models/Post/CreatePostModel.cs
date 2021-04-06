@@ -2,6 +2,7 @@
 
 namespace HealthierTogether.Server.Models.Post
 {
+    using AutoMapper.Configuration.Annotations;
     using HealthierTogether.Server.Mapper;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
@@ -17,8 +18,10 @@ namespace HealthierTogether.Server.Models.Post
         [Required]
         public string Content { get; set; }
 
-        public string CreatorId { get; set; }
-
+        [Ignore]
         public IEnumerable<int> TagIds { get; set; }
+
+        [Ignore]
+        public IEnumerable<string> NewTags { get; set; }
     }
 }
