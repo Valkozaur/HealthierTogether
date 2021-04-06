@@ -8,6 +8,7 @@
     using HealthierTogether.Server.Models.Identity;
     using HealthierTogether.Server.Data.Models;
     using HealthierTogether.Server.Features.Identity;
+    using HealthierTogether.Server.Features;
 
     public class IdentityController : ApiController
     {

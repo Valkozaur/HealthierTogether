@@ -1,7 +1,8 @@
-﻿using HealthierTogether.Server.Infrastructure.Extensions;
+﻿using HealthierTogether.Server.Features;
+using HealthierTogether.Server.Features.Tag;
+using HealthierTogether.Server.Infrastructure.Extensions;
 using HealthierTogether.Server.Models.Post;
 using HealthierTogether.Server.Services;
-using HealthierTogether.Server.Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 

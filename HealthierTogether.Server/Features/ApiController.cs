@@ -1,4 +1,4 @@
-﻿namespace HealthierTogether.Server.Controllers
+﻿namespace HealthierTogether.Server.Features
 {
     using Microsoft.AspNetCore.Mvc;
 

@@ -364,3 +364,4 @@ FodyWeavers.xsd
 /HealthierTogether.Server/obj
 /.vs
 /.editorconfig
+/HealthierTogether.Server/Properties
